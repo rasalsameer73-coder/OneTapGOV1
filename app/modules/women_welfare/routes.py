@@ -1,0 +1,1 @@
+"""Women welfare routes placeholder."""

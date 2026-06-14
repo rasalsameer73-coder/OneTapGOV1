@@ -1,0 +1,1 @@
+"""Schemes routes placeholder."""

@@ -1,0 +1,1 @@
+"""Scheme status enum placeholder."""

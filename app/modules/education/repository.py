@@ -1,0 +1,1 @@
+"""Education repository placeholder."""
