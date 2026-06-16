@@ -3,3 +3,5 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 tmp_*.py
+.env
+.env.partner
