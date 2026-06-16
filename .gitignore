@@ -1,6 +1,14 @@
-# Backend gitignore
+.venv/
 backend/.venv/
-**/__pycache__/
+__pycache__/
 *.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+tmp_*.py
 backend/tmp_*.py
-backend/.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
