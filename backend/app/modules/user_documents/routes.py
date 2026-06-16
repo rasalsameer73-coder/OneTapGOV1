@@ -5,22 +5,22 @@ from fastapi import (
 
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.core.database import get_db
+from backend.app.core.database import get_db
 
-from app.modules.auth.dependencies import (
+from backend.app.modules.auth.dependencies import (
     get_current_user,
 )
 
-from app.modules.user_documents.repository import (
+from backend.app.modules.user_documents.repository import (
     UserDocumentRepository,
 )
 
-from app.modules.user_documents.schemas import (
+from backend.app.modules.user_documents.schemas import (
     UserDocumentCreate,
     UserDocumentResponse,
 )
 
-from app.modules.user_documents.service import (
+from backend.app.modules.user_documents.service import (
     UserDocumentService,
 )
 

@@ -1,10 +1,10 @@
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.modules.documents.models import (
+from backend.app.modules.documents.models import (
     SchemeDocument,
 )
-from app.modules.schemes.models import Scheme
+from backend.app.modules.schemes.models import Scheme
 from sqlalchemy import select
 from fastapi import HTTPException
 from sqlalchemy.exc import IntegrityError

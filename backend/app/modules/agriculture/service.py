@@ -1,11 +1,11 @@
 from fastapi import HTTPException, status
 
-from app.modules.auth.models import User
-from app.modules.agriculture.models import AgricultureProfile
-from app.modules.agriculture.repository import (
+from backend.app.modules.auth.models import User
+from backend.app.modules.agriculture.models import AgricultureProfile
+from backend.app.modules.agriculture.repository import (
     AgricultureRepository,
 )
-from app.modules.agriculture.schemas import (
+from backend.app.modules.agriculture.schemas import (
     AgricultureProfileCreate,
     AgricultureProfileUpdate,
 )

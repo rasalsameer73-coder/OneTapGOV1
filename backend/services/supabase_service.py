@@ -1,8 +1,12 @@
-from supabase import create_client
 import os
 import logging
 
 _logger = logging.getLogger("supabase")
+
+try:
+    from supabase import create_client
+except Exception:
+    create_client = None
 
 
 def _get_env(*names):

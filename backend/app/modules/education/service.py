@@ -1,9 +1,9 @@
-from app.modules.auth.models import User
-from app.modules.education.models import EducationProfile
-from app.modules.education.repository import (
+from backend.app.modules.auth.models import User
+from backend.app.modules.education.models import EducationProfile
+from backend.app.modules.education.repository import (
     EducationRepository,
 )
-from app.modules.education.schemas import (
+from backend.app.modules.education.schemas import (
     EducationProfileCreate,
     EducationProfileUpdate,
 )

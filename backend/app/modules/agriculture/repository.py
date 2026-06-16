@@ -1,7 +1,7 @@
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.modules.agriculture.models import AgricultureProfile
+from backend.app.modules.agriculture.models import AgricultureProfile
 
 
 class AgricultureRepository:

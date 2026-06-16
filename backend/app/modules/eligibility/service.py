@@ -1,27 +1,27 @@
-from app.modules.eligibility.context_builder import (
+from backend.app.modules.eligibility.context_builder import (
     UserContextBuilder,
 )
-from app.modules.eligibility.evaluator import (
+from backend.app.modules.eligibility.evaluator import (
     RuleEvaluator,
 )
-from app.modules.eligibility.schemas import (
+from backend.app.modules.eligibility.schemas import (
     EligibleSchemeResponse,
 )
 
-from app.modules.schemes.repository import (
+from backend.app.modules.schemes.repository import (
     SchemeRepository,
 )
 
-from app.modules.profile.repository import (
+from backend.app.modules.profile.repository import (
     ProfileRepository,
 )
-from app.modules.education.repository import (
+from backend.app.modules.education.repository import (
     EducationRepository,
 )
-from app.modules.women.repository import (
+from backend.app.modules.women.repository import (
     WomenRepository,
 )
-from app.modules.agriculture.repository import (
+from backend.app.modules.agriculture.repository import (
     AgricultureRepository,
 )
 

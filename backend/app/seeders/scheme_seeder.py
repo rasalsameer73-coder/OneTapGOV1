@@ -2,28 +2,28 @@ import asyncio
 
 from sqlalchemy import select
 
-from app.core.database import AsyncSessionLocal
+from backend.app.core.database import AsyncSessionLocal
 
-from app.modules.schemes.models import (
+from backend.app.modules.schemes.models import (
     Scheme,
     SchemeVersion,
     EligibilityRule,
     RuleCondition,
 )
 
-from app.modules.documents.models import (
+from backend.app.modules.documents.models import (
     SchemeDocument,
 )
 
-from app.seeders.education_data import (
+from backend.app.seeders.education_data import (
     education_schemes,
 )
 
-from app.seeders.women_data import (
+from backend.app.seeders.women_data import (
     women_schemes,
 )
 
-from app.seeders.agriculture_data import (
+from backend.app.seeders.agriculture_data import (
     agriculture_schemes,
 )
 

@@ -1,7 +1,7 @@
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.modules.schemes.models import (
+from backend.app.modules.schemes.models import (
     Scheme,
     SchemeVersion,
     EligibilityRule,

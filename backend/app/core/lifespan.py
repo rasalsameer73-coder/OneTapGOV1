@@ -2,7 +2,7 @@ from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 
-from app.core.logger import logger
+from backend.app.core.logger import logger
 
 
 @asynccontextmanager

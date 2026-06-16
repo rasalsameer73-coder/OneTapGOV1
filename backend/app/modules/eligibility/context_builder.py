@@ -1,7 +1,7 @@
-from app.modules.profile.models import Profile
-from app.modules.education.models import EducationProfile
-from app.modules.women.models import WomenProfile
-from app.modules.agriculture.models import AgricultureProfile
+from backend.app.modules.profile.models import Profile
+from backend.app.modules.education.models import EducationProfile
+from backend.app.modules.women.models import WomenProfile
+from backend.app.modules.agriculture.models import AgricultureProfile
 
 
 class UserContextBuilder:

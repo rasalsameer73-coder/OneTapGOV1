@@ -1,7 +1,7 @@
-from app.modules.auth.models import User
-from app.modules.women.models import WomenProfile
-from app.modules.women.repository import WomenRepository
-from app.modules.women.schemas import (
+from backend.app.modules.auth.models import User
+from backend.app.modules.women.models import WomenProfile
+from backend.app.modules.women.repository import WomenRepository
+from backend.app.modules.women.schemas import (
     WomenProfileCreate,
     WomenProfileUpdate,
 )

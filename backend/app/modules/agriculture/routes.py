@@ -1,15 +1,15 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.core.database import get_db
-from app.modules.auth.dependencies import get_current_user
-from app.modules.agriculture.repository import AgricultureRepository
-from app.modules.agriculture.schemas import (
+from backend.app.core.database import get_db
+from backend.app.modules.auth.dependencies import get_current_user
+from backend.app.modules.agriculture.repository import AgricultureRepository
+from backend.app.modules.agriculture.schemas import (
     AgricultureProfileCreate,
     AgricultureProfileUpdate,
     AgricultureProfileResponse,
 )
-from app.modules.agriculture.service import AgricultureService
+from backend.app.modules.agriculture.service import AgricultureService
 
 
 router = APIRouter()

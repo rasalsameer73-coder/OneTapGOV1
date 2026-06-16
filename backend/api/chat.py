@@ -1,13 +1,13 @@
 from fastapi import APIRouter, Depends, Header, HTTPException
 from pydantic import BaseModel
 from typing import Optional
-from services.supabase_service import supabase
-from services.profile_service import ProfileService
-from services.groq_service import GroqService
-from config.basic_questions import BASIC_FIELDS, FIELD_DESCRIPTIONS
-from config.farmer_questions import FARMER_FIELDS, FARMER_FIELD_DESCRIPTIONS
-from config.student_questions import STUDENT_FIELDS, STUDENT_FIELD_DESCRIPTIONS
-from config.women_questions import WOMEN_FIELDS, WOMEN_FIELD_DESCRIPTIONS
+from backend.services.supabase_service import supabase
+from backend.services.profile_service import ProfileService
+from backend.services.groq_service import GroqService
+from backend.config.basic_questions import BASIC_FIELDS, FIELD_DESCRIPTIONS
+from backend.config.farmer_questions import FARMER_FIELDS, FARMER_FIELD_DESCRIPTIONS
+from backend.config.student_questions import STUDENT_FIELDS, STUDENT_FIELD_DESCRIPTIONS
+from backend.config.women_questions import WOMEN_FIELDS, WOMEN_FIELD_DESCRIPTIONS
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 
 

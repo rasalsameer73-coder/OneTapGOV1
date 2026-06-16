@@ -1,7 +1,7 @@
-from config.basic_questions import BASIC_FIELDS
-from config.farmer_questions import FARMER_FIELDS
-from config.student_questions import STUDENT_FIELDS
-from config.women_questions import WOMEN_FIELDS
+from backend.config.basic_questions import BASIC_FIELDS
+from backend.config.farmer_questions import FARMER_FIELDS
+from backend.config.student_questions import STUDENT_FIELDS
+from backend.config.women_questions import WOMEN_FIELDS
 
 
 class ProfileService:

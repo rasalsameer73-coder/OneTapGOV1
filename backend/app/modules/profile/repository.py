@@ -1,7 +1,7 @@
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.modules.profile.models import Profile
+from backend.app.modules.profile.models import Profile
 
 
 class ProfileRepository:

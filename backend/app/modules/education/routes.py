@@ -1,15 +1,15 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.core.database import get_db
-from app.modules.auth.dependencies import get_current_user
-from app.modules.education.repository import EducationRepository
-from app.modules.education.schemas import (
+from backend.app.core.database import get_db
+from backend.app.modules.auth.dependencies import get_current_user
+from backend.app.modules.education.repository import EducationRepository
+from backend.app.modules.education.schemas import (
     EducationProfileCreate,
     EducationProfileUpdate,
     EducationProfileResponse,
 )
-from app.modules.education.service import EducationService
+from backend.app.modules.education.service import EducationService
 
 
 router = APIRouter()

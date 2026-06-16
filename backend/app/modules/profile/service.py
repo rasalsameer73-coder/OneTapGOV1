@@ -1,7 +1,7 @@
-from app.modules.auth.models import User
-from app.modules.profile.models import Profile
-from app.modules.profile.repository import ProfileRepository
-from app.modules.profile.schemas import (
+from backend.app.modules.auth.models import User
+from backend.app.modules.profile.models import Profile
+from backend.app.modules.profile.repository import ProfileRepository
+from backend.app.modules.profile.schemas import (
     ProfileCreate,
     ProfileUpdate,
 )

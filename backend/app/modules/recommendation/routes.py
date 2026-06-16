@@ -1,35 +1,35 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.core.database import get_db
+from backend.app.core.database import get_db
 
-from app.modules.auth.dependencies import (
+from backend.app.modules.auth.dependencies import (
     get_current_user,
 )
 
-from app.modules.profile.repository import (
+from backend.app.modules.profile.repository import (
     ProfileRepository,
 )
-from app.modules.education.repository import (
+from backend.app.modules.education.repository import (
     EducationRepository,
 )
-from app.modules.women.repository import (
+from backend.app.modules.women.repository import (
     WomenRepository,
 )
-from app.modules.agriculture.repository import (
+from backend.app.modules.agriculture.repository import (
     AgricultureRepository,
 )
-from app.modules.documents.repository import (
+from backend.app.modules.documents.repository import (
     DocumentRepository,
 )
-from app.modules.schemes.repository import (
+from backend.app.modules.schemes.repository import (
     SchemeRepository,
 )
 
-from app.modules.recommendation.schemas import (
+from backend.app.modules.recommendation.schemas import (
     SchemeRecommendationResponse,
 )
-from app.modules.recommendation.service import (
+from backend.app.modules.recommendation.service import (
     RecommendationService,
 )
 

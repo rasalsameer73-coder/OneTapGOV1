@@ -1,10 +1,10 @@
-from app.modules.documents.models import (
+from backend.app.modules.documents.models import (
     SchemeDocument,
 )
-from app.modules.documents.repository import (
+from backend.app.modules.documents.repository import (
     DocumentRepository,
 )
-from app.modules.documents.schemas import (
+from backend.app.modules.documents.schemas import (
     SchemeDocumentCreate,
 )
 

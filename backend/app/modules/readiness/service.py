@@ -1,12 +1,12 @@
-from app.modules.documents.repository import (
+from backend.app.modules.documents.repository import (
     DocumentRepository,
 )
 
-from app.modules.user_documents.repository import (
+from backend.app.modules.user_documents.repository import (
     UserDocumentRepository,
 )
 
-from app.modules.readiness.schemas import (
+from backend.app.modules.readiness.schemas import (
     ReadinessResponse,
 )
 

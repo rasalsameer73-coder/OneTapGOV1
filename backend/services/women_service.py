@@ -1,4 +1,4 @@
-from services.supabase_service import supabase
+from backend.services.supabase_service import supabase
 
 class WomenService:
     @staticmethod

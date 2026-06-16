@@ -1,8 +1,8 @@
 from google import genai
 
-from app.core.config import settings
+from backend.app.core.config import settings
 
-from app.modules.assistant.schemas import (
+from backend.app.modules.assistant.schemas import (
     AssistantResponse,
 )
 

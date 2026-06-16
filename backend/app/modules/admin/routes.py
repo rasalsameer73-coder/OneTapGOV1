@@ -1,16 +1,16 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.core.database import get_db
+from backend.app.core.database import get_db
 
-from app.modules.schemes.models import (
+from backend.app.modules.schemes.models import (
     Scheme,
     SchemeVersion,
     EligibilityRule,
     RuleCondition,
 )
 
-from app.modules.documents.models import (
+from backend.app.modules.documents.models import (
     SchemeDocument,
 )
 

@@ -1,8 +1,8 @@
 import os
 import json
 from groq import Groq
-from prompts.question_prompt import QUESTION_PROMPT
-from prompts.extraction_prompt import EXTRACTION_PROMPT
+from backend.prompts.question_prompt import QUESTION_PROMPT
+from backend.prompts.extraction_prompt import EXTRACTION_PROMPT
 
 class GroqService:
     def __init__(self):

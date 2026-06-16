@@ -11,7 +11,7 @@ config = context.config
 import os
 try:
     # Prefer explicit env var (DATABASE_URL) or fall back to app settings
-    from app.core.config import settings
+    from backend.app.core.config import settings
     env_url = os.environ.get("DATABASE_URL") or settings.DATABASE_URL
     if env_url:
         # Alembic's offline engine expects a sync driver. If the app uses
@@ -27,19 +27,19 @@ if config.config_file_name is not None:
     fileConfig(config.config_file_name)
 
 # Import Base
-from app.core.database import Base
+from backend.app.core.database import Base
 
 # Import ALL models so Alembic can discover tables
-from app.modules.auth.models import User
-from app.modules.profile.models import Profile
+from backend.app.modules.auth.models import User
+from backend.app.modules.profile.models import Profile
 
-from app.modules.education.models import EducationProfile
-from app.modules.women.models import WomenProfile
-from app.modules.agriculture.models import AgricultureProfile
-from app.modules.documents.models import SchemeDocument
-from app.modules.user_documents.models import UserDocument
+from backend.app.modules.education.models import EducationProfile
+from backend.app.modules.women.models import WomenProfile
+from backend.app.modules.agriculture.models import AgricultureProfile
+from backend.app.modules.documents.models import SchemeDocument
+from backend.app.modules.user_documents.models import UserDocument
 
-from app.modules.schemes.models import (
+from backend.app.modules.schemes.models import (
     Scheme,
     SchemeVersion,
     EligibilityRule,

@@ -1,12 +1,12 @@
-from app.modules.user_documents.models import (
+from backend.app.modules.user_documents.models import (
     UserDocument,
 )
 
-from app.modules.user_documents.repository import (
+from backend.app.modules.user_documents.repository import (
     UserDocumentRepository,
 )
 
-from app.modules.user_documents.schemas import (
+from backend.app.modules.user_documents.schemas import (
     UserDocumentCreate,
 )
 

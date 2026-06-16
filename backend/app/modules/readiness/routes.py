@@ -7,27 +7,27 @@ from sqlalchemy.ext.asyncio import (
     AsyncSession,
 )
 
-from app.core.database import (
+from backend.app.core.database import (
     get_db,
 )
 
-from app.modules.auth.dependencies import (
+from backend.app.modules.auth.dependencies import (
     get_current_user,
 )
 
-from app.modules.documents.repository import (
+from backend.app.modules.documents.repository import (
     DocumentRepository,
 )
 
-from app.modules.user_documents.repository import (
+from backend.app.modules.user_documents.repository import (
     UserDocumentRepository,
 )
 
-from app.modules.readiness.schemas import (
+from backend.app.modules.readiness.schemas import (
     ReadinessResponse,
 )
 
-from app.modules.readiness.service import (
+from backend.app.modules.readiness.service import (
     ReadinessService,
 )
 

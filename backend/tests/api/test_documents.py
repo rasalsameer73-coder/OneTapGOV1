@@ -1,6 +1,6 @@
 import pytest
 from fastapi.testclient import TestClient
-from app.main import app
+from backend.app.main import app
 
 
 def test_create_document_valid_scheme():

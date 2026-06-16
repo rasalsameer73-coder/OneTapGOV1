@@ -1,14 +1,14 @@
 from fastapi import HTTPException, status
-from app.core.logger import logger as struct_logger
+from backend.app.core.logger import logger as struct_logger
 
-from app.core.jwt import create_access_token
-from app.core.security import (
+from backend.app.core.jwt import create_access_token
+from backend.app.core.security import (
     hash_password,
     verify_password,
 )
-from app.modules.auth.models import User
-from app.modules.auth.repository import UserRepository
-from app.modules.auth.schemas import (
+from backend.app.modules.auth.models import User
+from backend.app.modules.auth.repository import UserRepository
+from backend.app.modules.auth.schemas import (
     UserCreate,
     UserLogin,
 )

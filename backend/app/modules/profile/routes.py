@@ -1,19 +1,19 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.core.database import get_db
-from app.modules.auth.dependencies import (
+from backend.app.core.database import get_db
+from backend.app.modules.auth.dependencies import (
     get_current_user,
 )
-from app.modules.profile.repository import (
+from backend.app.modules.profile.repository import (
     ProfileRepository,
 )
-from app.modules.profile.schemas import (
+from backend.app.modules.profile.schemas import (
     ProfileCreate,
     ProfileResponse,
     ProfileUpdate,
 )
-from app.modules.profile.service import (
+from backend.app.modules.profile.service import (
     ProfileService,
 )
 

@@ -1,7 +1,7 @@
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.modules.women.models import WomenProfile
+from backend.app.modules.women.models import WomenProfile
 
 
 class WomenRepository:

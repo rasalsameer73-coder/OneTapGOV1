@@ -1,45 +1,45 @@
 from fastapi import FastAPI
 
-from app.core.config import settings
-from app.core.lifespan import lifespan
+from backend.app.core.config import settings
+from backend.app.core.lifespan import lifespan
 
-from app.modules.auth.routes import (
+from backend.app.modules.auth.routes import (
     router as auth_router,
 )
-from app.modules.profile.routes import (
+from backend.app.modules.profile.routes import (
     router as profile_router,
 )
-from app.modules.education.routes import (
+from backend.app.modules.education.routes import (
     router as education_router,
 )
-from app.modules.women.routes import (
+from backend.app.modules.women.routes import (
     router as women_router,
 )
-from app.modules.agriculture.routes import (
+from backend.app.modules.agriculture.routes import (
     router as agriculture_router,
 )
-from app.modules.schemes.routes import (
+from backend.app.modules.schemes.routes import (
     router as scheme_router,
 )
-from app.modules.eligibility.routes import (
+from backend.app.modules.eligibility.routes import (
     router as eligibility_router,
 )
-from app.modules.documents.routes import (
+from backend.app.modules.documents.routes import (
     router as document_router,
 )
-from app.modules.recommendation.routes import (
+from backend.app.modules.recommendation.routes import (
     router as recommendation_router,
 )
-from app.modules.user_documents.routes import (
+from backend.app.modules.user_documents.routes import (
     router as user_document_router,
 )
-from app.modules.readiness.routes import (
+from backend.app.modules.readiness.routes import (
     router as readiness_router,
 )
-from app.modules.assistant.routes import (
+from backend.app.modules.assistant.routes import (
     router as assistant_router,
 )
-from app.modules.admin.routes import (
+from backend.app.modules.admin.routes import (
     router as admin_router,
 )
 

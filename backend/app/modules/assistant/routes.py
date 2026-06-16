@@ -1,11 +1,11 @@
 from fastapi import APIRouter
 
-from app.modules.assistant.schemas import (
+from backend.app.modules.assistant.schemas import (
     AssistantQuery,
     AssistantResponse,
 )
 
-from app.modules.assistant.service import (
+from backend.app.modules.assistant.service import (
     AssistantService,
 )
 

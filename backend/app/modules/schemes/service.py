@@ -1,8 +1,8 @@
-from app.modules.schemes.models import Scheme
-from app.modules.schemes.repository import (
+from backend.app.modules.schemes.models import Scheme
+from backend.app.modules.schemes.repository import (
     SchemeRepository,
 )
-from app.modules.schemes.schemas import (
+from backend.app.modules.schemes.schemas import (
     SchemeCreate,
     SchemeUpdate,
 )
